@@ -1,0 +1,1 @@
+export function SectionHeading({ title, text }: { title: string; text: string }) { return <div className="mx-auto mb-9 max-w-xl text-center"><h2 className="title">{title}</h2><p className="mt-3 text-sm leading-6 text-slate-600">{text}</p></div>; }
